@@ -1,0 +1,63 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    background-color: whitesmoke;
+    color: #000;
+    padding: 0;
+}
+
+header{
+    background-color:#c39bd3 ;
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1,h2{
+    margin: 20px;
+    text-align: center;
+    text-decoration: solid;
+}
+main{
+    max-width: 600px;
+    margin: auto;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    
+}
+
+input,select{
+    display: block;
+    width: 82%;
+    margin-bottom: 5px; 
+    border: 3px solid whitesmoke ;
+    border-radius: 10px;
+    font-family: Verdana;
+    box-sizing:content-box; 
+    padding: 8px 2px; 
+}
+
+input[type="submit"],
+input[type="button"]{
+    background-color: #c39bd3;
+    color: azure;
+    border-radius: 20px;
+    cursor: pointer;
+    padding:10px 3px;
+    font-family: 'Verdana';
+    margin-top: 10PX;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #A569BD;
+}
+
+input[type="button"]:hover {
+    background-color: #A569BD;
+}
+
+span{
+    color:#CB4335 ;
+}
