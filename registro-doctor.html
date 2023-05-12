@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De Registro</title>
+</head>
+<body>
+    <header>
+        <h1>CENTRO MEDICO</h1>
+    </header>
+    <main>
+        <form id="resgitro-doctores-form">
+            <h2>REGISTRO DE MEDICOS ESPECIALISTAS</h2>
+            <label for="nombre">Nombre:<span> *</span></label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:<span> *</span></label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="cedula">Numero de Cedula:<span> *</span></label>
+            <input type="text" id="cedula" name="cedula" required>
+            <label for="especialidad">Especialidad</label>
+            <select name="especialidad" id="especialidad">
+                <option value="">>------------------------  Seleccione la especialidad  ---------------------</option>
+                <option value="Medicina general">Medicina general</option>
+                <option value="Cardiologia">Cardiología</option>
+                <option value="Medicina interna">Medicina interna</option>
+                <option value="Dermatologia">Dermatología</option>
+                <option value="Rehabilitacion fisica">Rehabilitación física</option>
+                <option value="Psicologia">Psicología</option>
+                <option value="Odontologia">Odontología</option>
+                <option value="Radiologia">Radiología</option>
+            </select>
+            <label for="consultorio">Consultorio:<span> *</span></label>
+            <input type="number" name="consultorio" id="consultorio">
+            <label for="correo">Correo:<span> *</span></label>
+            <input type="email" name="email" id="email">
+
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="boton-container">
+            <input type="button" id="Volver" value="Volver">
+        </div>
+    </main>
+    
+</body>
+</html>
