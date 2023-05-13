@@ -23,7 +23,7 @@ main{
 label{
     display: block;
     margin-bottom: 5px;
-    font-weight: lighter;
+    font-weight: bold;
     
 }
 
@@ -60,4 +60,32 @@ input[type="button"]:hover {
 
 span{
     color:#CB4335 ;
+}
+
+table{
+    border-collapse: separate;
+    width: 85%;
+    font-size: 15px;
+    font-family: 'Verdana';
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    border: 5px solid #c39bd3;
+    background-color: #c39bd3;
+}
+td{
+    color: whitesmoke;
+}
+th{
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.tabla{
+    max-width: 90%;
+}
+
+.boton-container {
+    margin-block: 10px;
 }
