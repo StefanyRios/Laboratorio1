@@ -89,3 +89,7 @@ th{
 .boton-container {
     margin-block: 10px;
 }
+
+li{
+   list-style-type: none; 
+}
