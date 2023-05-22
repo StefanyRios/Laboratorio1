@@ -28,4 +28,12 @@ formularioRegistro.addEventListener("submit", function(event){
     localStorage.setItem("medicos", JSON.stringify(medicos))
     formularioRegistro.reset()
     alert("Medico registrado con exito")
+    const confirmacion = confirm('¿Desea ver los datos guardados?');
+    if (confirmacion) {
+        window.location.href = "doctor.html";
+    } else {
+        alert('Continuando en el formulario');
+        formularioRegistro.reset()
+    }
+    
 })

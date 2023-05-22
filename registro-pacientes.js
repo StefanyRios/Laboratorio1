@@ -26,4 +26,14 @@ formulario.addEventListener("submit", function (event) {
     localStorage.setItem("pacientes", JSON.stringify(pacientes))
     formulario.reset()
     alert("Paciente registrado con exito")
+
+    const confirmacion = confirm('¿Desea ver los datos guardados?');
+    if (confirmacion) {
+        window.location.href = "paciente.html";
+    } 
+    else {
+        alert('Continuando en el formulario');
+        formulario.reset()
+    }
+
 })
