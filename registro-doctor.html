@@ -23,7 +23,7 @@
             <label for="cedula">Numero de Cedula:<span> *</span></label>
             <input type="text" id="cedula" name="cedula" required>
             <label for="especialidad">Especialidad</label>
-            <select name="especialidad" id="especialidad">
+            <select name="especialidad" id="especialidad" required>
                 <option value="">------------------------  Seleccione la especialidad  ---------------------</option>
                 <option value="Medicina general">Medicina general</option>
                 <option value="Cardiologia">Cardiología</option>
@@ -35,9 +35,9 @@
                 <option value="Radiologia">Radiología</option>
             </select>
             <label for="consultorio">Consultorio:<span> *</span></label>
-            <input type="number" name="consultorio" id="consultorio" min="1">
+            <input type="number" name="consultorio" id="consultorio" min="1" required>
             <label for="correo">Correo:<span> *</span></label>
-            <input type="correo" name="correo" id="correo">
+            <input type="correo" name="correo" id="correo" required>
 
             <input type="submit" value="Enviar">
         </form>
